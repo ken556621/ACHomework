@@ -6,6 +6,6 @@
 
   + Personal profile
   + Movie List
-  + Socila List
+  + Social List
   + Customized Card
   + Todo List
