@@ -4,7 +4,7 @@
   
 # List
 ---
-  *Personal profile
+  +Personal profile
   *Movie List
   *Socila List
   *Customized Card
