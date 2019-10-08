@@ -5,7 +5,7 @@
 # List
 
   + Personal profile
-  * Movie List
-  * Socila List
-  * Customized Card
-  * Todo List
+  + Movie List
+  + Socila List
+  + Customized Card
+  + Todo List
