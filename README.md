@@ -4,8 +4,8 @@
   
 # List
 ---
-  +Personal profile
-  *Movie List
-  *Socila List
-  *Customized Card
-  *Todo List
+  + Personal profile
+  * Movie List
+  * Socila List
+  * Customized Card
+  * Todo List
