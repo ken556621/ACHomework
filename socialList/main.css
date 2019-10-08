@@ -1,0 +1,48 @@
+.jumbotron{
+    background-image:url('https://images.unsplash.com/photo-1502673530728-f79b4cab31b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-size:cover;
+  }
+  /* card */
+  .card{
+    transition: .3s ease;
+  }
+  .card:hover{
+    border:1px solid #ABABAB;
+    filter:brightness(1.1);
+    top:-7px;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 13px 19px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 13px 19px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 13px 19px 1px rgba(0,0,0,0.75);
+  }
+  /* font-icons */
+  .fa-th, .fa-bars{
+    transition:all 280ms ease-in;
+    border-radius:10px;
+  }
+  .fa-th:hover, .fa-bars:hover{
+    background-color:black;
+    color:white;
+    padding:5px;
+  }
+  /* navbar */
+  .socialList, .favorite, .select{
+    transition: all 280ms ease-in-out;
+    border-bottom:1px solid black;
+    border-width:0px;
+  }
+  .socialList:hover, .favorite:hover, .select:hover{
+    letter-spacing: 1px;
+  }
+  /* search */
+  #search{
+    border:3px solid gray;
+    border-radius:20px;
+  }
+  /* list-css */
+  .list-img{
+    width:30%;
+  }
+  tr:hover{
+    background: linear-gradient(218deg, #858585 2%, #C9C7BF 55%);
+  }

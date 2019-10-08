@@ -1,0 +1,30 @@
+
+.checked {
+    color: #ccc;
+    text-decoration: line-through;
+    font-style: italic;
+  }
+  .btn_control{
+    border-radius:10px;
+    margin:10px 10px;
+    transition:all 0.3s ease-in;
+  }
+  .btn:hover{
+      -webkit-box-shadow: 9px 9px 24px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 9px 9px 24px 0px rgba(0,0,0,0.75);
+      box-shadow: 9px 9px 24px 0px rgba(0,0,0,0.75);
+      filter:brightness(1.3);
+  }
+  .fa {
+    margin-right:15px;
+    margin-bottom:8px;
+    color: #bbb;
+  }
+  .textInput, .dateInput{
+    width:210px;
+    border-radius:5px;
+  }
+  li{
+    display:flex;
+    align-items:center;
+  }

@@ -1,0 +1,102 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.inputField .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+fieldset{
+    width: 600px;
+    height: 600px;
+}
+legend{
+    font-size: 35px;
+    font-weight: bold;
+}
+.dark {
+    background: black;
+    color: #eee;
+}
+
+.light {
+    background: #eee;
+    color: black;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    font-size: 50px;
+    text-align: center;
+}
+h6{
+    font-size: 30px;
+    margin: 0;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    width: 40%;
+    word-break: break-all;
+}
+img{
+    padding: 10px;
+    border-radius: 50%;
+}
+#nameCard{
+    display: none;
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 70px;
+}
+#nameField{
+    width: 400px;
+    height: 25px;
+    margin: 15px;
+}
+#photoField{
+    width: 400px;
+    height: 25px;
+    margin: 15px;
+}
+::placeholder {
+    font-size: 1.5em;
+  }
+.photoLabel{
+    margin-right: 5px;
+}
+#introField{
+    width: 400px;
+    height: 150px;
+    margin: 15px;
+    font-size: 15px;
+}
+.pick{
+    margin: 10px;
+}
+.btn button{
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn button:hover{
+    background-color: #000000;
+    color:#fff;
+}
+.danger{
+    border-color: red;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.sucess{
+    border-color: green;
+    border-width: 3px;
+    border-radius: 5px;
+}

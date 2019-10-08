@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Customize Card</title>
+</head>
+<body>
+    <section class="inputField">
+        <div class="container">
+            <form action="" id="form">
+                <fieldset>
+                    <legend>Customize Your Card</legend>
+                    <div class="name">
+                        <label for="nameField">Your name</label>
+                        <input type="text" id="nameField" placeholder="Your name">
+                        <div class="feedback"></div>
+                    </div>
+                    <div class="photo">
+                        <label for="photoField" class="photoLabel">Photo link</label>
+                        <input type="text" id="photoField" placeholder="Link to your photo">
+                    </div>
+                    <div class="intro">
+                        <label for="introField">Introdution</label>
+                        <input type="text" id="introField" placeholder="Your introdution in 200 words">
+                        <div class="feedback"></div>
+                    </div>
+                    <div class="theme">
+                        <h6>Choose the theme</h6>
+                        <div class="pick">
+                            <input type="radio" id="darkBtn" name="theme">
+                            <label for="pickBtn">Dark theme</label>
+                            <input type="radio" id="lightBtn" name="theme">
+                            <label for="pickBtn">Light theme</label>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section class="outputField light" id="nameCard">
+        <div class="container">
+            <h4>Your Card!</h4>
+            <div id="nameCardField">
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

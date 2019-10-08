@@ -1,0 +1,173 @@
+/*==================================================1.Global Setting========================================*/
+body{
+    font-family: Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left:175px;
+    width: 88%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+/*==================================================2.Header/logo========================================*/
+.container{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    background-color: #0A50EB;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    border: 3px solid #2e69ed;
+    padding: 0;
+    margin: 0;
+}
+.logo a{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 13px 40px;
+}
+.logo a{
+    
+}
+.content{
+    padding-top: 18%;
+    padding-bottom:28%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 650px;
+}
+.content h2{
+    font-size: 40px;
+    margin:0;
+}
+.content h3{
+    color:#0A50EB;
+    margin: 2px;
+}
+.content p{
+    margin: 37px 0;
+    color: #868e96;
+}
+.content a i{
+    font-size: 40px;
+    padding:0 10px;
+    color: #495157;
+}
+.content a i:first-child{
+    padding-right:10px;
+    padding-left:0px;
+}
+/*==================================================3.Experience========================================*/
+.showcase{
+    width: 650px;
+    padding-top: 2%;
+    padding-bottom:11%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container h2{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.experience{
+    padding:18px 0;
+    margin: 0;
+}
+.timeline{
+    display: flex;
+    justify-content: space-between;
+}
+.timeline p{
+    margin: 0;
+    padding-bottom: 6px;
+}
+.timeline p span{
+    font-size: 16px;
+    color: #0A50EB;
+}
+.experience h3{
+    text-transform: uppercase;
+    margin:0;
+    font-size: 25px;
+}
+.experience span{
+    text-transform: uppercase;
+    margin:5px 0;
+    padding-top: 6px;
+    color: #0A50EB;
+    font-size: 20px;
+}
+.experience p{
+    line-height: 1.5;
+    color: #868e96;
+}
+/*==================================================4.Footer=============================================*/
+#skills{
+    width: 650px;
+    padding-top: 12%;
+    padding-bottom:18%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container-footer h2{
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.tool{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.tool span{
+    font-size: 20px;
+    color: #0A50EB;
+    text-transform: uppercase;
+}
+.icon i{
+    font-size: 40px;
+    padding: 20px 10px;
+    color: #868e96;
+}
+
+
+.workflow{
+    margin: 30px 0px;
+}
+.workflow span{
+    color: #0A50EB;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.workflow ul{
+    list-style: none;
+    padding: 0 10px;
+    margin: 20px 0;
+}
+.workflow ul li{
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px 0;
+    color: #868e96;
+}
+.workflow ul li::before{
+    content: '✓';
+    padding: 0 5px;
+}
